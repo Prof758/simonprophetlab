@@ -39,6 +39,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #2a2438;
+  position: relative;
 }
 
 .nav-menu {
@@ -48,8 +49,32 @@ body {
 .nav-menu-link {
   margin-right: 16px;
   list-style: none;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-weight: 600;
   letter-spacing: 1.2px;
   cursor: pointer;
+}
+
+.hero-container {
+  width: 100%;
+  height: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #2a2438;
+}
+
+.hero-header-title {
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 1.2px;
+  font-size: 5.6rem;
+}
+
+.hero-subtitle {
+  font-size: 2rem;
+  letter-spacing: 1.2px;
+  font-style: italic;
+  font-weight: 400;
 }
