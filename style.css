@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;700;900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Ubuntu:wght@300;400;700&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,5 +9,47 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: #113f67;
+  color: #dbd8e3;
+}
+
+.logo-container {
+  position: relative;
+}
+
+.header-logo {
+  font-family: inherit;
+  font-weight: bolder;
+  font-size: 32px;
+}
+
+.header-logo span {
+  font-weight: 400;
+  position: absolute;
+  color: #dc2f2f;
+  font-family: 'Caveat';
+  top: 20%;
+  left: 35%;
+}
+
+.header-container {
+  width: 100%;
+  height: 1.2rem;
+  padding: 2.8rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2a2438;
+}
+
+.nav-menu {
+  display: flex;
+}
+
+.nav-menu-link {
+  margin-right: 16px;
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  cursor: pointer;
 }
